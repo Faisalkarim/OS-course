@@ -1,0 +1,303 @@
+faisal@FaisalsPC:~$ cd/mnt/d
+-bash: cd/mnt/d: No such file or directory
+faisal@FaisalsPC:~$ cd /mnt/d
+faisal@FaisalsPC:/mnt/d$ ls
+'$RECYCLE.BIN'          'PUBG _en_detailpage_900206280.exe'   Win10_2004_English_x64.iso              project-proposal-kanchon.pdf
+'Ass Creed 4'            Rahat_Proj                          'bangladesh_railway_e_ticket (15).pdf'   update-FIFA17.bat
+'Avro Keyboard'         'Ryans Software'                      call-of-duty-world-at-war.torrent       update-FarCry3.bat
+ Config.Msi              SteamLibrary                         msdownld.tmp                            update-cod4.bat
+'Far Cry 3'             'System Volume Information'           nosTEAM.bmp                             vcredist.bmp
+ Games                   Temp                                 pen                                     visit-nosteam.ro.html
+'Install VALORANT.exe'   UnityHubSetup.exe                   'phone pics'                             visit-www.nosteam.ro.html
+'Mixd HD Video Songs'    Win.All.88in1.October.2021.iso       popcorn
+faisal@FaisalsPC:/mnt/d$ cd Games
+faisal@FaisalsPC:/mnt/d/Games$ ls
+ 2802166531.mp4                                               'Pro Evolution Soccer 2017'
+ AC4                                                           ProjectVersion.txt
+ Build                                                        'Riot Games'
+'Call of Duty 4 Modern Warfare MP+SP ^^nosTEAM^^.rar'          TemplateData
+ GLP_installer_1000218273_com.tencent.ig.exe                   TheAltoCollection1
+'GLP_installer_1000218282_com.activision.callofduty (1).exe'  'WIN10.PRO.2004.COMPACT.AND.SUPERLITE.U5.X64.(NORMAL).iso'
+'GLP_installer_1000218282_com.activision.callofduty (2).exe'   dependencies.txt
+ GLP_installer_1000218282_com.activision.callofduty.exe        fossapup64-9.5.iso
+ GLP_installer_1000218944_market.exe                           im-steam-installer.exe
+ MinecraftInstaller.msi                                        index.html
+'Need for Speed Most Wanted (2012) [EBOX].iso'                 thumbnail.png
+'Need for speed'                                               unnamed.png
+faisal@FaisalsPC:/mnt/d/Games$ cd -
+/mnt/d
+faisal@FaisalsPC:/mnt/d$ ls
+'$RECYCLE.BIN'          'PUBG _en_detailpage_900206280.exe'   Win10_2004_English_x64.iso              project-proposal-kanchon.pdf
+'Ass Creed 4'            Rahat_Proj                          'bangladesh_railway_e_ticket (15).pdf'   update-FIFA17.bat
+'Avro Keyboard'         'Ryans Software'                      call-of-duty-world-at-war.torrent       update-FarCry3.bat
+ Config.Msi              SteamLibrary                         msdownld.tmp                            update-cod4.bat
+'Far Cry 3'             'System Volume Information'           nosTEAM.bmp                             vcredist.bmp
+ Games                   Temp                                 pen                                     visit-nosteam.ro.html
+'Install VALORANT.exe'   UnityHubSetup.exe                   'phone pics'                             visit-www.nosteam.ro.html
+'Mixd HD Video Songs'    Win.All.88in1.October.2021.iso       popcorn
+faisal@FaisalsPC:/mnt/d$ pwd
+/mnt/d
+faisal@FaisalsPC:/mnt/d$ touch test.txt
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 12:35  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal           0 Sep 26 12:35  test.txt
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$ nano test.txt
+faisal@FaisalsPC:/mnt/d$ cat test.txt
+Hello i am faisal.yooooooooooooooooooo...............
+faisal@FaisalsPC:/mnt/d$ rm test.txt
+faisal@FaisalsPC:/mnt/d$ ls
+'$RECYCLE.BIN'          'PUBG _en_detailpage_900206280.exe'   Win10_2004_English_x64.iso              project-proposal-kanchon.pdf
+'Ass Creed 4'            Rahat_Proj                          'bangladesh_railway_e_ticket (15).pdf'   update-FIFA17.bat
+'Avro Keyboard'         'Ryans Software'                      call-of-duty-world-at-war.torrent       update-FarCry3.bat
+ Config.Msi              SteamLibrary                         msdownld.tmp                            update-cod4.bat
+'Far Cry 3'             'System Volume Information'           nosTEAM.bmp                             vcredist.bmp
+ Games                   Temp                                 pen                                     visit-nosteam.ro.html
+'Install VALORANT.exe'   UnityHubSetup.exe                   'phone pics'                             visit-www.nosteam.ro.html
+'Mixd HD Video Songs'    Win.All.88in1.October.2021.iso       popcorn
+faisal@FaisalsPC:/mnt/d$
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 12:42  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$ mkdir lab1
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 12:44  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 12:44  lab1
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$ cd /lab1
+-bash: cd: /lab1: No such file or directory
+faisal@FaisalsPC:/mnt/d$ cd lab1
+faisal@FaisalsPC:/mnt/d/lab1$ cd -
+/mnt/d
+faisal@FaisalsPC:/mnt/d$ rm -R lab1
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 12:53  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$ chmod u=r test.txt
+chmod: cannot access 'test.txt': No such file or directory
+faisal@FaisalsPC:/mnt/d$ touch text.txt
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 13:03  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal           0 Sep 26 13:03  text.txt
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$ chmod u=r test.txt
+chmod: cannot access 'test.txt': No such file or directory
+faisal@FaisalsPC:/mnt/d$ chmod u=r text.txt
+faisal@FaisalsPC:/mnt/d$ ls -al
+ls: Config.Msi: Permission denied
+ls: 'System Volume Information': Permission denied
+total 20818696
+drwxrwxrwx 1 faisal faisal        4096 Nov 23  2021 '$RECYCLE.BIN'
+drwxrwxrwx 1 faisal faisal        4096 Sep 26 13:03  .
+drwxr-xr-x 8 root   root          4096 Sep 26 01:43  ..
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  .freedownloadmanager
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021 'Ass Creed 4'
+drwxrwxrwx 1 faisal faisal        4096 Jan 25  2020 'Avro Keyboard'
+d--x--x--x 1 faisal faisal        4096 Jul  6  2021  Config.Msi
+drwxrwxrwx 1 faisal faisal        4096 Apr  5  2021 'Far Cry 3'
+drwxrwxrwx 1 faisal faisal        4096 Dec  2  2021  Games
+-rwxrwxrwx 1 faisal faisal    69072384 Sep 14  2021 'Install VALORANT.exe'
+drwxrwxrwx 1 faisal faisal        4096 Feb 29  2020 'Mixd HD Video Songs'
+-rwxrwxrwx 1 faisal faisal     1564944 Mar 13  2020 'PUBG _en_detailpage_900206280.exe'
+drwxrwxrwx 1 faisal faisal        4096 Aug 26 11:12  Rahat_Proj
+drwxrwxrwx 1 faisal faisal        4096 Jul 21  2020 'Ryans Software'
+drwxrwxrwx 1 faisal faisal        4096 Nov 22  2021  SteamLibrary
+d--x--x--x 1 faisal faisal        4096 Nov 14  2020 'System Volume Information'
+drwxrwxrwx 1 faisal faisal        4096 Apr  2  2019  Temp
+-rwxrwxrwx 1 faisal faisal    71115600 Jun 21  2020  UnityHubSetup.exe
+-r-xr-xr-x 1 faisal faisal 15902965760 Nov  9  2021  Win.All.88in1.October.2021.iso
+-rwxrwxrwx 1 faisal faisal  5268953088 Jun 13  2020  Win10_2004_English_x64.iso
+-rwxrwxrwx 1 faisal faisal       41042 Mar 16  2020 'bangladesh_railway_e_ticket (15).pdf'
+-rwxrwxrwx 1 faisal faisal       13542 Jun  8  2020  call-of-duty-world-at-war.torrent
+drwxrwxrwx 1 faisal faisal        4096 Jun 30  2021  msdownld.tmp
+-rwxrwxrwx 1 faisal faisal     3661894 Sep 21  2018  nosTEAM.bmp
+drwxrwxrwx 1 faisal faisal        4096 Jul 14  2020  pen
+drwxrwxrwx 1 faisal faisal        4096 Aug 29  2021 'phone pics'
+drwxrwxrwx 1 faisal faisal        4096 Jul 20  2020  popcorn
+-rwxrwxrwx 1 faisal faisal      911356 Mar 15  2020  project-proposal-kanchon.pdf
+-rwxrwxrwx 1 faisal faisal           0 Sep 26 13:03  text.txt
+-rwxrwxrwx 1 faisal faisal         429 Jul 14  2017  update-FIFA17.bat
+-rwxrwxrwx 1 faisal faisal          83 Nov 24  2012  update-FarCry3.bat
+-rwxrwxrwx 1 faisal faisal          76 May 20  2012  update-cod4.bat
+-rwxrwxrwx 1 faisal faisal        5686 Nov  7  2007  vcredist.bmp
+-rwxrwxrwx 1 faisal faisal        3153 Jun 15  2012  visit-nosteam.ro.html
+-rwxrwxrwx 1 faisal faisal        3153 Jun 30  2012  visit-www.nosteam.ro.html
+faisal@FaisalsPC:/mnt/d$
+faisal@FaisalsPC:/mnt/d$ sudo vim /etc/wsl.conf
+[sudo] password for faisal:
+faisal@FaisalsPC:/mnt/d$
